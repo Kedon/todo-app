@@ -1,0 +1,23 @@
+.todo-app {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 800px;
+    padding: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    font-size: 24px;
+    font-weight: 300;
+    h1 {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    form {
+        width: 100%;
+        display: flex;
+        input {
+            flex-grow: 1;
+            margin-right: 15px;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@import "../assets/core/variables";
+
+.todo-item-ui {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: solid 1px $gray-border-color;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: all 300ms ease-in-out;
+    &:hover {
+        background-color: $gray-color-light;
+    }
+    .task {
+        flex-grow: 1;
+        margin: 0 8px;
+        font-weight: 400;
+        font-size: 17px;
+        color: $gray-color;
+        &.done {
+            text-decoration: line-through;
+        }
+    }
+}
